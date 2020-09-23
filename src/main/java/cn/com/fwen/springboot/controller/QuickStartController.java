@@ -9,7 +9,7 @@ public class QuickStartController {
 
     @RequestMapping("/quick")
     public @ResponseBody String quick(){
-        System.out.println("修改");
+        System.out.println("123456");
         return "springboot 访问成功!";
     }
 }
